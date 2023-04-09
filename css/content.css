@@ -1,0 +1,31 @@
+.hfch-extra-attributes-container {
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  display: flex;
+  min-height: 32px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.hfch-extra-attribute {
+  font-family: "Source Sans Pro", "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: normal;
+  color: rgb(36, 36, 36);
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 8px;
+}
+
+.hfch-calories-low {
+  background-color: #E4FABF;
+}
+
+.hfch-calories-med {
+  background-color: #FFECD3;
+}
+
+.hfch-calories-high {
+  background-color: #E377AB;
+}
